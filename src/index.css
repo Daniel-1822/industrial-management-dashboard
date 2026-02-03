@@ -1,0 +1,42 @@
+/* Solo pesos 400 y 700, sin itálicas (menos archivos, carga más rápida) */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+@import "./styles/variables.css";
+@import "tailwindcss";
+
+@theme {
+  /* Mapeo de variables CSS a tokens de Tailwind */
+  --color-highlight: var(--brand-accent);
+  --color-industrial-dark: var(--brand-dark);
+  --color-industrial-black: var(--brand-black);
+  --color-success: var(--brand-success);
+  --color-error: var(--brand-error);
+  --color-warning: var(--brand-warning);
+
+  --color-window-title: var(--brand-dark);
+  --color-window-bg: var(--brand-light);
+
+  --font-sans: "Ubuntu", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* Mono que combina con Ubuntu: misma familia tipográfica */
+  --font-mono: "Ubuntu Mono", ui-monospace, "Cascadia Mono", "Consolas", monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+:root {
+  background-color: var(--brand-black);
+  color: #000000;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}

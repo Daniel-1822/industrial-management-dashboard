@@ -1,0 +1,17 @@
+:root {
+    /* Paleta Industrial SOONFIELD */
+    --brand-accent: #FFC500;
+    /* Naranja Industrial */
+    --brand-dark: #363737;
+    /* Gris Carbono */
+    --brand-black: #1a1a1a;
+    /* Negro Profundo */
+    --brand-light: #f4f5f7;
+    /* Gris Superficie */
+    --brand-success: #22c55e;
+    /* Verde Sistema */
+    --brand-error: #DA2C43;
+    /* Rojo Alerta */
+    --brand-warning: #f59e0b;
+    /* Ámbar Precaución */
+}
