@@ -105,15 +105,12 @@ const About = () => {
                                     <p className="text-sm text-gray-700 leading-relaxed mb-4">
                                         Empresa líder en el transporte y distribución de <span className="font-bold text-industrial-dark">materias primas</span> y <span className="font-bold text-industrial-dark">componentes electrónicos</span> de alta precisión.
                                     </p>
-                                    <p className="text-sm text-gray-700 leading-relaxed mb-4">
-                                        Con más de 15 años de experiencia en el sector industrial, garantizamos la entrega segura y eficiente de materiales críticos para la fabricación de tecnología de vanguardia.
-                                    </p>
                                     <div className="border-l-4 border-[#FFC500] pl-4 bg-gray-50 p-4 mt-4">
                                         <p className="text-xs font-black uppercase tracking-wider text-industrial-dark/60 mb-2">
-                                            Nuestra Misión
+                                            Nuestra Visión
                                         </p>
                                         <p className="text-sm text-gray-700 italic">
-                                            "Conectar la industria global con soluciones logísticas de precisión, asegurando la cadena de suministro del futuro tecnológico."
+                                            "Muchos bichos pocas fabricas de iPhone"
                                         </p>
                                     </div>
                                 </div>
@@ -130,11 +127,8 @@ const About = () => {
                                 <div className="p-6">
                                     <ul className="space-y-3">
                                         {[
-                                            'Transporte de materiales semiconductores',
-                                            'Distribución de componentes electrónicos',
-                                            'Logística de materias primas industriales',
-                                            'Almacenamiento controlado y seguro',
-                                            'Trazabilidad en tiempo real',
+                                            'Transporte de materiales',
+                                            'Distribución de componentes',
                                             'Certificación ISO 9001:2015'
                                         ].map((service, index) => (
                                             <li key={index} className="flex items-start gap-3">

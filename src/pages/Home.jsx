@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className="min-h-screen bg-industrial-dark flex items-center justify-center p-4 relative overflow-hidden">
+        <div className="min-h-screen bg-industrial-dark flex flex-col items-center justify-center p-8 py-12 relative overflow-y-auto">
             {/* Background Pattern - Diagonal stripes */}
             <div className="absolute inset-0 opacity-[0.03]"
                 style={{
@@ -27,8 +27,18 @@ const Home = () => {
 
             {/* Main Content */}
             <div className="relative z-10 w-full max-w-6xl">
+                {/* About Link - Move here from Navbar */}
+                <div className="absolute top-0 right-0 md:right-8">
+                    <Link to="/admin/about" className="group flex items-center gap-3 bg-white/5 px-4 py-2 hover:bg-white/10 transition-colors border border-white/10">
+                        <div className="w-2 h-2 bg-[#FFC500] group-hover:rotate-90 transition-transform" />
+                        <span className="text-[10px] text-white/60 font-black uppercase tracking-wider group-hover:text-white transition-colors">
+                            Sobre Nosotros
+                        </span>
+                    </Link>
+                </div>
+
                 {/* Header */}
-                <div className="text-center mb-16">
+                <div className="text-center mb-8">
                     <div className="inline-block mb-6">
                         <div className="flex items-center gap-4 bg-[#FFC500] px-8 py-4 relative">
                             <div className="absolute inset-0 opacity-[0.1]"
@@ -210,7 +220,7 @@ const Home = () => {
                 </div>
 
                 {/* Footer Info */}
-                <div className="mt-12 text-center">
+                <div className="mt-8 text-center">
                     <div className="inline-flex items-center gap-3 bg-white/5 px-6 py-3 backdrop-blur-sm border border-white/10">
                         <div className="w-2 h-2 bg-[#FFC500]" />
                         <span className="text-[10px] text-white/60 font-black uppercase tracking-wider">

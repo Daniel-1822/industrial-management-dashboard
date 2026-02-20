@@ -26,8 +26,7 @@ function AppContent() {
   const adminLinks = [
     { label: 'Volver al Menú', url: '/' },
     { label: 'Suministros', url: '/admin/suministros' },
-    { label: 'Producción', url: '/admin/produccion' },
-    { label: 'Sobre Nosotros', url: '/admin/about' }
+    { label: 'Producción', url: '/admin/produccion' }
   ];
 
   // Definir enlaces para el módulo de Transporte

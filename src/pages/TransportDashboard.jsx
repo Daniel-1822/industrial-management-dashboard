@@ -69,10 +69,10 @@ const TransportDashboard = () => {
                 <div className="relative z-10 flex justify-between items-start">
                     <div>
                         <h1 className="text-white text-3xl font-black tracking-tighter italic leading-none">
-                            // CONTROL DE LANZAMIENTOS SPX
+                            // DISPONIBLES
                         </h1>
                         <div className="flex gap-4 mt-2">
-                            <span className="text-[10px] font-bold text-white/80 uppercase tracking-[0.2em]">Módulo: Logística Aeroespacial</span>
+                            <span className="text-[10px] font-bold text-white/80 uppercase tracking-[0.2em]">Logística Aeroespacial</span>
                             <span className="text-[10px] font-bold text-white/80 uppercase tracking-[0.2em] flex items-center gap-1">
                                 <span className={`w-1.5 h-1.5 rounded-full animate-pulse ${error ? 'bg-red-500' : 'bg-white'}`} />
                                 {loading ? 'Sincronizando...' : error ? 'Enlace fallido' : 'Enlace estable'}
